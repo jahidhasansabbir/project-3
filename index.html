@@ -31,8 +31,8 @@
     </script>
 </head>
 
-<body class="text-manrope w-10/12 mx-auto">
-    <header class="mb-16">
+<body class="mb-0">
+    <header class="mb-16 text-manrope w-10/12 mx-auto">
         <!-- Banner -->
         <section class="lg:flex mt-16">
             <div class="lg:w-1/2 flex flex-col justify-center">
@@ -63,7 +63,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="text-manrope w-10/12 mx-auto">
         <!-- Feature -->
         <section class="mb-16">
             <h1 class="text-5xl font-extrabold text-black text-center">Our Featured Products</h1>
@@ -170,15 +170,16 @@
                 <div class=" absolute bottom-28 -left-2 md:-left-10 lg:-left-16 z-10 w-full">
                     <div class="bg-white rounded-xl
                 py-8 px-10 md:mt-10 relative">
-                    <p class="text-gray-500 text-base font-medium">We are providing the best and suitable home insurance
-                        services for the people who are interested to treatment</p>
-                    <div class="mt-6">
-                        <h3 class="text-black text-base font-bold">Ilham Yuda</h3>
-                        <p class="text-gray-500 text-base font-normal">Businessman</p>
+                        <p class="text-gray-500 text-base font-medium">We are providing the best and suitable home
+                            insurance
+                            services for the people who are interested to treatment</p>
+                        <div class="mt-6">
+                            <h3 class="text-black text-base font-bold">Ilham Yuda</h3>
+                            <p class="text-gray-500 text-base font-normal">Businessman</p>
+                        </div>
+                        <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white"
+                            src="images/client.png" alt="">
                     </div>
-                    <img class="absolute -top-5 -left-5 border-4 border-white rounded-full bg-white"
-                        src="images/client.png" alt="">
-                </div>
                 </div>
                 <!-- review-card-last -->
                 <div class="bg-white opacity-15 rounded-xl
@@ -196,47 +197,110 @@
         </section>
 
         <!-- News and event -->
-         <section>
+        <section>
             <h1 class="text-5xl font-extrabold text-center mb-5">News & Events</h1>
-            <p class="text-base text-gray-500 font-medium text-center mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p class="text-base text-gray-500 font-medium text-center mb-12">There are many variations of passages of
+                Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or
+                randomised words which don't look even slightly believable. </p>
 
             <!-- News-card-container-->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" >
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <!-- Card-1 -->
-                 <div class="p-5 border rounded-2xl">
+                <div class="p-5 border rounded-2xl">
                     <img class="mb-5" src="images/news-1.png" alt="">
                     <div>
                         <p class="text-base text-gray-500 font-medium mb-3">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold mb-3">Collecting 8 points for discount</h4>
-                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <h2 class="text-base font-bold mb-3">Learn More</h2>
                     </div>
-                 </div>
+                </div>
                 <!-- Card-2 -->
-                 <div class="p-5 border rounded-2xl">
+                <div class="p-5 border rounded-2xl">
                     <img class="mb-5" src="images/news-2.png" alt="">
                     <div>
                         <p class="text-base text-gray-500 font-medium mb-3">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold mb-3">Collecting 8 points for discount</h4>
-                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <h2 class="text-base font-bold mb-3">Learn More</h2>
                     </div>
-                 </div>
+                </div>
                 <!-- Card-3 -->
-                 <div class="p-5 border rounded-2xl">
+                <div class="p-5 border rounded-2xl">
                     <img class="mb-5" src="images/news-3.png" alt="">
                     <div>
                         <p class="text-base text-gray-500 font-medium mb-3">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold mb-3">Collecting 8 points for discount</h4>
-                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base text-gray-500 font-medium mb-3">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <h2 class="text-base font-bold mb-3">Learn More</h2>
                     </div>
-                 </div>
-             </div>
+                </div>
+            </div>
 
-         </section>
+        </section>
     </main>
+    <footer class="bg-gradient-to-r from-red-50 to-red-100 mt-20 py-12">
+        <section class="text-manrope w-10/12 mx-auto mb-11">
+            <div class="flex flex-col md:flex-row lg:flex-row justify-between items-center mb-12">
+                <img class="hidden md:inline lg:inline w-16 h-16 mb-10" src="images/cup.png" alt="">
+                <div class="flex md:gap-10 lg:gap-10 justify-between items-center">
+                    <p class="text-xl font-medium text-gray-500">Ready to get strated?</p>
+                    <button
+                        class="text-white ml-4 text-xl font-bold bg-gradient-to-r from-orange-400 to-red-600 px-4 py-4 mx-auto lg:ml-0 rounded-lg">Get
+                        Started</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 content-start gap-7">
+                <!-- quick-link -->
+                <div class="">
+                    <h1 class="text-xl font-extrabold">Quick Links</h1>
+                    <ul class="text-gray-500">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Insurance</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <!-- Our Service -->
+                <div>
+                    <h1 class="text-xl font-extrabold">Our Service</h1>
+                    <ul class="text-gray-500">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Insurance</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <!-- Help -->
+                <div>
+                    <h1 class="text-xl font-extrabold">Help</h1>
+                    <ul class="text-gray-500">
+                        <li>Home</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+                <!-- Newsletter -->
+                <div>
+                    <h1 class="text-xl font-extrabold">Subscribe to our <br> newsletter</h1>
+                    <div class="flex items-center">
+                        <input class="border-b-2 p-6 border-gray-400 bg-transparent  focus:outline-none" type="text"
+                            placeholder="Email address">
+                        <button
+                            class="w-8 h-8 bg-gradient-to-r from-orange-300 to-orange-700 rounded-full text-white"><i
+                                class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    <div class="flex gap-7 mt-5">
+                        <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="text-base text-gray-500 text-center">© 2027 UIDesign.to - All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
